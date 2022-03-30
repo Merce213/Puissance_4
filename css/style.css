@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-variant: all-small-caps;
+}
+
+body {
+  background: beige;
+  text-align: center;
+}
+
+.title {
+  color: white;
+}
+
+.navbar {
+  background: black;
+  padding: 15px 0;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+  color: white;
+  border: 1px solid blue;
+  background-color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 3px 5px 3px;
+  padding: 5px;
+}
+
+.score {
+  color: white;
+}
+
+#game {
+  display: inline-block;
+  text-align: center;
+  background-color: blue;
+}
+
+.col {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: white;
+  margin: 5px 15px;
+  display: inline-block;
+}
+
+.col.empty {
+  cursor: pointer;
+}
+
+.col.red {
+  background-color: red;
+  animation: bounce 1s ease 1 alternate;
+}
+
+.col.yellow {
+  background-color: yellow;
+  animation: bounce 1s ease 1 alternate;
+}
+
+.col.green {
+  background-color: green;
+  animation: bounce 1s ease 1 alternate;
+}
+
+.col.blue {
+  background-color: blue;
+  animation: bounce 1s ease 1 alternate;
+}
+
+.col.pink {
+  background-color: pink;
+  animation: bounce 1s ease 1 alternate;
+}
+
+.col.violet {
+  background-color: violet;
+  animation: bounce 1s ease 1 alternate;
+}
+
+.col.orange {
+  background-color: orange;
+  animation: bounce 1s ease 1 alternate;
+}
+
+.col.black {
+  background-color: black;
+  animation: bounce 1s ease 1 alternate;
+}
+
+.col.pred {
+  background-color: darkred;
+}
+
+.col.pyellow {
+  background-color: darkgoldenrod;
+}
+
+.col.pgreen {
+  background-color: darkgreen;
+}
+
+.col.pblue {
+  background-color: darkblue;
+}
+
+.col.ppink {
+  background-color: rgb(165, 128, 134);
+}
+
+.col.pviolet {
+  background-color: darkmagenta;
+}
+
+.col.porange {
+  background-color: rgb(117, 65, 1);
+}
+
+.col.pblack {
+  background-color: black;
+}
+
+@keyframes bounce {
+  from {transform: translateY(-500px);}
+  to {transform: translateY(0px);}
+}
